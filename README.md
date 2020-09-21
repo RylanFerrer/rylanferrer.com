@@ -55,13 +55,15 @@
 
 ## About The Project
 
-[![Figma Mockups][product-screenshot]](https://imgur.com/iuwCrq9)
+[![Figma Mockups][product-screenshot]](https://res.cloudinary.com/rylanf/image/upload/v1600665733/iuwCrq9_asffao.jpg)
 
 ### Built With
 
 - [React.js](https://reactjs.org/)
 - [SCSS](https://sass-lang.com/)
 - [Figma](https://www.figma.com/)
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Strapi](https://strapi.io/)
 
 <!-- LICENSE -->
 
