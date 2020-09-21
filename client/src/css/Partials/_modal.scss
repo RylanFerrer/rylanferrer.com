@@ -1,0 +1,89 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 999 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__click {
+    height: 100%;
+    width: 100%;
+  }
+  &__content {
+    position: absolute;
+    background-color: white;
+    height: 50%;
+    width: 95%;
+    border-radius: 8px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+  }
+  &__symbol {
+    font-size: 5rem;
+    border-radius: 50%;
+    padding: 2%;
+    border: 0.35rem solid;
+  }
+  &__message {
+    text-align: center;
+    color: black;
+    margin: 0 2%;
+  }
+  &__check {
+    color: #68d959;
+    border-color: #68d959;
+  }
+  &__times {
+    color: red;
+    border-color: red;
+  }
+  &__exit {
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+}
+
+@include tablet {
+  .modal {
+    &__content {
+      width: 50%;
+    }
+  }
+}
+
+@include large-desktop {
+  .modal {
+    &__content {
+      width: 30%;
+      height: 40%;
+    }
+  }
+}
+.test {
+  background-color: red;
+}
+
+.error-form {
+  color: red;
+  margin-top: -0.9rem;
+  text-align: left;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}

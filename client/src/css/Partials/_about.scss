@@ -1,0 +1,80 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  &__avatar {
+    width: 110px;
+    z-index: 998 !important;
+    background-color: transparent;
+  }
+  &__description {
+    z-index: 998 !important;
+    background-color: transparent;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 9% 5% 9%;
+  }
+  &__blob {
+    &-left {
+      background-image: url("../Assets/Images/blob-about-left.svg");
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-color: transparent;
+    }
+    &-right {
+      background-image: url("../Assets/Images/blob-about-right.svg");
+      width: 69px;
+      position: absolute;
+      right: 0;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-color: transparent;
+    }
+  }
+}
+
+@include tablet {
+  .about {
+    flex-direction: row;
+    justify-content: center;
+    height: 329px;
+    &__description {
+      z-index: 999;
+      font-size: 18px;
+      padding: 0;
+      width: 50%;
+      text-align: left;
+    }
+    &__avatar {
+      margin-right: 5%;
+      width: 150px;
+    }
+    &__blob {
+      &-left {
+        z-index: 0;
+        background-image: url("../Assets/Images/blob-about-tablet-left.svg");
+        height: 390px;
+      }
+      &-right {
+        z-index: 0;
+        background-image: url("../Assets/Images/blob-about-tablet-right.svg");
+        width: 125px;
+      }
+    }
+  }
+}
+
+@include large-desktop {
+  .about {
+    &__avatar {
+      width: 12%;
+    }
+    &__description {
+      font-size: 1.3em;
+    }
+  }
+}

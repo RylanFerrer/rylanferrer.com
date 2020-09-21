@@ -1,0 +1,12 @@
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    /* start of medium tablet styles */
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
