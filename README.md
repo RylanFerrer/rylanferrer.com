@@ -102,4 +102,4 @@ Project Link: [https://github.com/RylanFerrer/rylanferrer.com](https://github.co
 [license-url]: https://github.com/rylanferrer/rylanferrer.com/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rylanferrer/
-[product-screenshot]: https://imgur.com/iuwCrq9
+[product-screenshot]: https://res.cloudinary.com/rylanf/image/upload/v1600665733/iuwCrq9_asffao.jpg
